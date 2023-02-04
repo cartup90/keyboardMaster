@@ -1,14 +1,21 @@
 *{
     font-family: 'Special Elite', sans-serif;
 }
+html {
+    height: 100vh;
+}
 body {
     width: 100%;
     margin: 0;
     padding: 0;
     background-color:#25232d;
     height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
     
 }
+
 header {
     display: flex;
     flex-flow: column wrap;
@@ -16,6 +23,7 @@ header {
     margin-top: 15px;
     padding: 20px;
     color: #c4ceba;
+    text-align:center;
     
     
 }
@@ -25,6 +33,7 @@ header {
 }
 .container {
     width: 80%;
+    height: 80%;
     border-radius: 16px;
     background-color: #c4ceb0;
     margin: auto;
@@ -33,11 +42,12 @@ header {
     flex-direction: column;
     justify-content: center;
 
+
 }
 .textarea {
     display: block;
-    width: 50%;
-    margin: 9px auto;
+    width: 60%;
+    margin: auto;
     box-sizing: border-box;
     padding: 9px;
     background: transparent;
@@ -51,7 +61,7 @@ header {
 }
 .input {
     display: block;
-    width: 40%;
+    width: 50%;
     padding: 10px;
     margin: 20px auto;
     height: 25px;
@@ -66,14 +76,14 @@ header {
     
     text-align: center;
     border-radius: 16px;
-    width: 40%;
+    width: 50%;
     margin: 5px auto;
     background-color: #e6c9cc ;
 }
 .timer {
     border-radius: 16px;
     text-align: center;
-    width: 40%;
+    width: 50%;
     margin: 10px auto;
     background-color: crimson;
     opacity: 0.8;
@@ -81,13 +91,14 @@ header {
 }
 
 .opciones {
-    margin-left: -30px;
     
-    width: 89%;
+    position: absolute;
+    margin-left: -8%;
+    width: 90%;
     padding: 10px;
     height: 320px;
     border-radius: 16px;
-    position: absolute;
+    
     background-color: blueviolet;
     display: flex;
     flex-flow: column wrap;
@@ -196,7 +207,7 @@ header {
     align-items: end;
     font-size: 13px;
     margin: auto;
-    margin-top: 90px;
+    margin-bottom: 8px;    
     
 }
 .linkedin {
