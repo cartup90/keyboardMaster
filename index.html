@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecera">
+        <img src="keyboardMaster.png" class="logo" alt="logo de la KeyboardMater">
+        <h2>Tipea tan rapido como puedas</h2> 
+    </header>
+    <main>
+    <div class="container">
+        <div class="inputs-game">
+            <textarea name="" id="" cols="30" rows="1" class="textarea"></textarea>
+            <input type="text" class="input">
+        </div>
+        <div class="puntuacion">
+            <p>Puntuacion = <b class="puntos">0</b></p>
+        </div>
+        <div class="timer">
+            <p><span id="time"><b>0</b></span> segundos</p>
+        </div>   
+        <div class="opciones ">
+                <h2 class="texto-inicio">Pulsa el boton para iniciar</h2>
+                <button id="start" class="iniciar css-button-retro--sand">Iniciar</button>
+                <div class="segundos">
+                    <button class="veinteSec selected">20"</button>
+                    <button class="cuarentaSec">40"</button>
+                </div>
+        </div>
+        <div class="resultado oculto"><br><br><br>
+            <span class="mensaje-resultado">resultado</span>
+                       <br><button class="volver">Volver</button>
+        </div>
+        
+          
+          
+    </div>
+    </main>
+    <footer class="footer"><span class="footer-msg">Design by Catriel Pardo. All right's reserved.</span>
+        <a href="https://www.linkedin.com/in/catriel-pardo-a92bb7245/" target="_blank"><img class="linkedin" src="linked.png" alt=""></a>
+        <a href="https://github.com/cartup90/" target="_blank"><img class="github" src="github.png" alt=""></a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

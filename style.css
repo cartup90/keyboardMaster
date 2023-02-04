@@ -1,0 +1,215 @@
+*{
+    font-family: 'Special Elite', sans-serif;
+}
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color:#25232d;
+    height: 100vh;
+    
+}
+header {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 15px;
+    padding: 20px;
+    color: #c4ceba;
+    
+    
+}
+.logo {
+    width: 60%;
+    /* color rosa del logo #e6c9cc */
+}
+.container {
+    width: 80%;
+    border-radius: 16px;
+    background-color: #c4ceb0;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.textarea {
+    display: block;
+    width: 50%;
+    margin: 9px auto;
+    box-sizing: border-box;
+    padding: 9px;
+    background: transparent;
+    border: none;
+    resize: none;
+    border-bottom: 3px solid #e6c9cc ;
+    transition: 0.6s;
+    color: #25232d;
+    text-align: center;
+    font-size: 150%;
+}
+.input {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin: 20px auto;
+    height: 25px;
+    border-radius: 16px;
+    border: none;
+    color: #25232d;
+    font-size: 130%;
+    text-align: center;
+}
+
+.puntuacion {
+    
+    text-align: center;
+    border-radius: 16px;
+    width: 40%;
+    margin: 5px auto;
+    background-color: #e6c9cc ;
+}
+.timer {
+    border-radius: 16px;
+    text-align: center;
+    width: 40%;
+    margin: 10px auto;
+    background-color: crimson;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.opciones {
+    margin-left: -30px;
+    
+    width: 89%;
+    padding: 10px;
+    height: 320px;
+    border-radius: 16px;
+    position: absolute;
+    background-color: blueviolet;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+
+}
+
+.texto-inicio {
+    color: #25232d;
+}
+.iniciar {
+    width: 50%;
+    height: 40px;
+    margin: 5px auto;
+    border-color: #25232d;
+    opacity: 0.8;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: #25232d;
+    color: #fff;
+}
+.iniciar:hover {
+    background-color: #c4ceb0;
+    color: #25232d;
+    transition: all 0.3s;
+}
+.segundos {
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.veinteSec {
+    width: 48%;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #25232d;
+    font-size: 20px;
+    text-align: center;
+    background-color: crimson;
+    opacity: 0.8;
+}
+.veinteSec:hover {
+    background-color: #c4ceb0;
+    transition: 0.3;
+}
+.cuarentaSec{
+    
+    width: 48%;
+    height: 40px;
+    border-radius: 10px;
+    border-color: #25232d;
+    font-size: 20px;
+    text-align: center;
+    background-color: crimson;
+    opacity: 0.8;
+    padding: 5px;
+}
+.cuarentaSec:hover {
+    background-color: #c4ceb0;
+    transition: 0.3;
+}
+.volver {
+    
+        width: 48%;
+        height: 40px;
+        border-radius: 10px;
+        border-color: #25232d;
+        font-size: 20px;
+        text-align: center;
+        background-color: crimson;
+        opacity: 0.8;
+    
+}
+.volver:hover{
+    background-color: #c4ceb0;
+    transition: 0.3;
+}
+.resultado {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    position: absolute;
+    align-items: center;
+    
+    width: 80%;
+    height: 250px;
+    border-radius: 16px;
+    text-align: center;
+    background-color: #e6c9cc;
+    box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+    -webkit-box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+    -moz-box-shadow: 0px 4px 46px 5px rgba(0,0,0,0.69);
+
+    
+}
+.footer{
+    font-size: 13px;
+    margin-left: 30px;
+    margin-top: 90px;
+    
+    
+}
+.linkedin {
+    height: 30px;
+
+}
+.github {
+    height: 30px;
+}
+
+.oculto {
+    display: none;
+    transition: all 0.5s;
+}
+
+.selected {
+    border: 2px solid #e6c9cc;
+}
+
