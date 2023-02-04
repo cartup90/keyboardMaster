@@ -227,3 +227,101 @@ header {
     border: 2px solid #e6c9cc;
 }
 
+
+@media only screen and (min-width: 800px) and (max-width: 1400px){
+    body {
+        display: flex;
+        flex-direction: column;
+        
+
+    }
+    .opciones {
+        margin: auto;
+        margin-left: -4%;
+        position: fixed;
+        width: 96%;
+
+    }
+    .container {
+        width: 90%;
+    }
+    .resultado {
+        display: flex;
+        width: 80%;
+        margin: auto;
+        margin-left: 5%;
+    }
+    
+}
+
+@media only screen and (min-width: 1401px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .container{
+        margin-left: 11%;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .inputs-game {
+        flex-grow: 6;
+        height: 100%;
+        width: 60%;
+        font-size: x-large;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .puntuacion {
+        flex-grow: 1;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+    }
+    .timer {
+        flex-grow: 1;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: larger;
+    }
+    .opciones {
+        position: fixed;
+        width: 80%;
+        height: 400px;
+        margin: auto;
+
+        
+    }
+    .iniciar {
+        height: 80px;
+    }
+    .veinteSec {
+        height: 80px;
+    }
+    
+    .cuarentaSec {
+        height: 80px;
+    }
+    .texto-inicio {
+        font-size: xx-large;
+    }
+    .resultado {
+        width: 81%;
+        height: 416px;
+    }
+    .mensaje-resultado {
+        font-size: xx-large;
+    }
+    .volver {
+        width: 30%;
+        height: 80px;
+    }
+
+}
